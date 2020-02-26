@@ -192,6 +192,10 @@ public class BaseRatingBar extends LinearLayout implements SimpleRatingBar {
     public void setRating(float rating) {
         setRating(rating, false);
     }
+    
+    public void setSrb_rating(float srb_rating) {
+        setRating(srb_rating, false);
+    }
 
     private void setRating(float rating, boolean fromUser) {
         if (rating > mNumStars) {
